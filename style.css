@@ -1,18 +1,16 @@
-/* Por padrão "main", "div", "section" vem como display: block */
-
-
 * {
-
     font-family: 'Roboto', sans-serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
 }
 
 body {
-
-    background-color: #008B8B;
+    background: url(./assets/background.png) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
 }
 
 .logo-gif {
@@ -20,7 +18,6 @@ body {
     width: 300px;
     display: block;
     margin: 20px auto;
-
 }
 
 main {
@@ -41,7 +38,6 @@ label {
 select,
 input {
 
-
     background-color: #FFFFFF;
     border: 1px solid #BBBBBB;
     border-radius: 4px;
@@ -54,13 +50,11 @@ input {
     font-weight: 700;
     color: #555555;
     cursor: pointer;
-
 }
 
 button {
 
-
-    background: #772FD3;
+    background: RGB(52, 113, 70);
     border-radius: 5px;
     width: 100%;
     height: 48px;
@@ -69,7 +63,6 @@ button {
     font-size: 18px;
     cursor: pointer;
     border: none;
-
 }
 
 button:hover {
@@ -91,11 +84,11 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 
 .arrow-img {
-
     margin: 15px 0;
 }
 
@@ -115,7 +108,8 @@ section {
 }
 
 
-.currency-value-real, .currency-value-dólar {
+.currency-value-real,
+.currency-value-dólar {
     font-size: 20px;
     font-weight: 700;
     color: #555555;
