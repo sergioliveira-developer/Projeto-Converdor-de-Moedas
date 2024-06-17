@@ -9,24 +9,25 @@ body {
     background: url(./assets/background.png) no-repeat;
     background-size: cover;
     height: 100%;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 40px;
 }
 
 .logo-gif {
-
     width: 300px;
     display: block;
-    margin: 20px auto;
+    border-radius: 10px;
+    margin: 30px auto;
 }
 
 main {
     width: 375px;
     background: #F4F4F4;
     border-radius: 20px;
-    margin: 0 auto 40px;
+    margin-top: 40px auto;
+    /* margin: 0 auto 40px; */
     padding: 44px 24px 23px;
 }
 
